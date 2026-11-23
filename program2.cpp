@@ -27,6 +27,14 @@ public:
 };
 int main()
 {
+ int r;
+ string n;
+ cout<<"enter rollno";
+ cin>>r;
+ cout<<"enter name";
+ cin>>n;
+ Student s2(r,n);
+ s2.display();
  Student s1(101, "Arun");
  s1.display();
  return 0;
